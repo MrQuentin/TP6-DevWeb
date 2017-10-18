@@ -40,4 +40,9 @@ public class FilmDaoMockImpl implements FilmDao {
 		filmsList.put(id, film);
 		return film;
 	}
+
+	@Override
+	public Film randomFilm() {
+		return null;
+	}
 }

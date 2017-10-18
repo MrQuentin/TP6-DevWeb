@@ -7,9 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de424930-0cba-4dfc-a7ab-a6257509aa71" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hei/devweb/javacinee/managers/FilmLibrary$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hei/devweb/javacinee/managers/FilmLibrary$FilmLibraryHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hei/devweb/javacinee/managers/FilmLibrary.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hei/devweb/javacinee/dao/FilmDao.class" afterPath="$PROJECT_DIR$/target/classes/hei/devweb/javacinee/dao/FilmDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hei/devweb/javacinee/dao/impl/FilmDoaImpl.class" afterPath="$PROJECT_DIR$/target/classes/hei/devweb/javacinee/dao/impl/FilmDoaImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hei/devweb/javacinee/dao/mock/impl/FilmDaoMockImpl.class" afterPath="$PROJECT_DIR$/target/classes/hei/devweb/javacinee/dao/mock/impl/FilmDaoMockImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hei/devweb/javacinee/servlets/FilmsListServlet.class" afterPath="$PROJECT_DIR$/target/classes/hei/devweb/javacinee/servlets/FilmsListServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hei/devweb/javacinee/servlets/GenresListServlet.class" afterPath="$PROJECT_DIR$/target/classes/hei/devweb/javacinee/servlets/GenresListServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hei/devweb/javacinee/servlets/HomeServlet.class" afterPath="$PROJECT_DIR$/target/classes/hei/devweb/javacinee/servlets/HomeServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/java-cinee-db-1.0-SNAPSHOT/WEB-INF/classes/hei/devweb/javacinee/dao/FilmDao.class" afterPath="$PROJECT_DIR$/target/java-cinee-db-1.0-SNAPSHOT/WEB-INF/classes/hei/devweb/javacinee/dao/FilmDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/java-cinee-db-1.0-SNAPSHOT/WEB-INF/classes/hei/devweb/javacinee/dao/impl/FilmDoaImpl.class" afterPath="$PROJECT_DIR$/target/java-cinee-db-1.0-SNAPSHOT/WEB-INF/classes/hei/devweb/javacinee/dao/impl/FilmDoaImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/java-cinee-db-1.0-SNAPSHOT/WEB-INF/classes/hei/devweb/javacinee/dao/mock/impl/FilmDaoMockImpl.class" afterPath="$PROJECT_DIR$/target/java-cinee-db-1.0-SNAPSHOT/WEB-INF/classes/hei/devweb/javacinee/dao/mock/impl/FilmDaoMockImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/java-cinee-db-1.0-SNAPSHOT/WEB-INF/classes/hei/devweb/javacinee/managers/FilmLibrary.class" afterPath="$PROJECT_DIR$/target/java-cinee-db-1.0-SNAPSHOT/WEB-INF/classes/hei/devweb/javacinee/managers/FilmLibrary.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/java-cinee-db-1.0-SNAPSHOT/WEB-INF/classes/hei/devweb/javacinee/servlets/FilmsListServlet.class" afterPath="$PROJECT_DIR$/target/java-cinee-db-1.0-SNAPSHOT/WEB-INF/classes/hei/devweb/javacinee/servlets/FilmsListServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/java-cinee-db-1.0-SNAPSHOT/WEB-INF/classes/hei/devweb/javacinee/servlets/GenresListServlet.class" afterPath="$PROJECT_DIR$/target/java-cinee-db-1.0-SNAPSHOT/WEB-INF/classes/hei/devweb/javacinee/servlets/GenresListServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/java-cinee-db-1.0-SNAPSHOT/WEB-INF/classes/hei/devweb/javacinee/servlets/HomeServlet.class" afterPath="$PROJECT_DIR$/target/java-cinee-db-1.0-SNAPSHOT/WEB-INF/classes/hei/devweb/javacinee/servlets/HomeServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/hei/devweb/javacinee/dao/impl/FilmDaoTestCase.class" afterPath="$PROJECT_DIR$/target/test-classes/hei/devweb/javacinee/dao/impl/FilmDaoTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/FilmDao.java" afterPath="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/FilmDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/FilmDoaImpl.java" afterPath="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/FilmDoaImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/managers/FilmLibrary.java" afterPath="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/managers/FilmLibrary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/sql/populateTables.sql" afterPath="$PROJECT_DIR$/src/main/sql/populateTables.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/mock/impl/FilmDaoMockImpl.java" afterPath="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/mock/impl/FilmDaoMockImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/FilmsListServlet.java" afterPath="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/FilmsListServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/GenresListServlet.java" afterPath="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/GenresListServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/HomeServlet.java" afterPath="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/HomeServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/hei/devweb/javacinee/dao/impl/FilmDaoTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/hei/devweb/javacinee/dao/impl/FilmDaoTestCase.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,11 +54,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DetailFilmServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/DetailFilmServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenresListServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/GenresListServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/HomeServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4f9cd80c-0339-42f1-8919-7a5465c7feec/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="42" lean-forward="true" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragments.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragments.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="29" column="56" lean-forward="true" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -46,49 +107,15 @@
       <file leaf-file-name="FilmDoaImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/FilmDoaImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="66" column="37" lean-forward="false" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+            <state relative-caret-position="211">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1508335033201" expanded="true" signature="736:844" ph="SELECT * FRO... film" />
-                <marker date="1508335033201" expanded="true" signature="1634:1713" ph="SELECT * FRO... film" />
-                <marker date="1508335033201" expanded="true" signature="2558:2650" ph="insert into film... " />
+                <marker date="1508336595054" expanded="true" signature="736:844" ph="SELECT * FRO... film" />
+                <marker date="1508336595054" expanded="true" signature="1634:1713" ph="SELECT * FRO... film" />
+                <marker date="1508336595054" expanded="true" signature="2707:2749" ph="select * fro... film" />
+                <marker date="1508336595054" expanded="true" signature="3928:4020" ph="insert into film... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="populateTables.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/sql/populateTables.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenreDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/GenreDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1508333544958" expanded="true" signature="379:412" ph="SELECT * FRO... genre" />
-                <marker date="1508333544958" expanded="true" signature="1222:1258" ph="SELECT * FRO... genre" />
-                <marker date="1508333544958" expanded="true" signature="2065:2098" ph="INSERT INTO genre... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenreDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/GenreDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -96,8 +123,8 @@
       <file leaf-file-name="FilmLibrary.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/managers/FilmLibrary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="226">
+              <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,37 +132,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilmDaoTestCase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/hei/devweb/javacinee/dao/impl/FilmDaoTestCase.java">
+      <file leaf-file-name="AddFilmServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/AddFilmServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1508334862136" expanded="true" signature="585:601" ph="DELETE FROM " />
-                <marker date="1508334862136" expanded="true" signature="628:645" ph="DELETE FROM " />
-                <marker date="1508334862136" expanded="true" signature="672:729" ph="INSERT INTO `genre`... " />
-                <marker date="1508334862136" expanded="true" signature="756:814" ph="INSERT INTO `genre`... " />
-                <marker date="1508334862136" expanded="true" signature="847:1022" ph="INSERT INTO `film`... " />
-                <marker date="1508334862136" expanded="true" signature="1055:1230" ph="INSERT INTO `film`... " />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenreDaoTestCase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/hei/devweb/javacinee/dao/impl/GenreDaoTestCase.java">
+      <file leaf-file-name="FilmDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/FilmDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="73" column="48" lean-forward="false" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
-              <folding>
-                <marker date="1508331465311" expanded="true" signature="781:797" ph="DELETE FROM " />
-                <marker date="1508331465311" expanded="true" signature="824:841" ph="DELETE FROM " />
-                <marker date="1508331465311" expanded="true" signature="868:925" ph="INSERT INTO `genre`... " />
-                <marker date="1508331465311" expanded="true" signature="952:1010" ph="INSERT INTO `genre`... " />
-                <marker date="1508331465311" expanded="true" signature="1037:1095" ph="INSERT INTO `genre`... " />
-                <marker date="1508331465311" expanded="true" signature="2025:2064" ph="SELECT * FRO... genre" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomFilmFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/filters/RandomFilmFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,11 +185,19 @@
         <option value="$PROJECT_DIR$/src/test/java/hei/devweb/javacinee/dao/impl/GenreDaoTestCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/DataSourceProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/GenreDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/managers/FilmLibrary.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hei/devweb/javacinee/dao/impl/FilmDaoTestCase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/FilmDoaImpl.java" />
         <option value="$PROJECT_DIR$/src/main/sql/populateTables.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4f9cd80c-0339-42f1-8919-7a5465c7feec/console.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/hei/devweb/javacinee/dao/impl/FilmDaoTestCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/mock/impl/FilmDaoMockImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/AddFilmServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/DetailFilmServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/FilmsListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/GenresListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/HomeServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/filters/RandomFilmFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/FilmDoaImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/FilmDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/managers/FilmLibrary.java" />
       </list>
     </option>
   </component>
@@ -273,6 +303,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javacinee" type="462c0819:PsiDirectoryNode" />
+              <item name="filters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-cinee-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-cinee-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javacinee" type="462c0819:PsiDirectoryNode" />
               <item name="managers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,7 +319,40 @@
               <item name="java-cinee-db" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javacinee" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-cinee-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-cinee-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-cinee-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-cinee-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-cinee-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-cinee-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-cinee-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-cinee-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-cinee-db" type="b2602c69:ProjectViewProjectNode" />
@@ -559,7 +631,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508328527459</updated>
-      <workItem from="1508328528809" duration="6815000" />
+      <workItem from="1508328528809" duration="9211000" />
     </task>
     <task id="LOCAL-00001" summary="ajout GenreDaoImpl">
       <created>1508329537892</created>
@@ -599,8 +671,8 @@
     <history-entry file="FilmDaoTestCase - 2017.10.18 at 15h 54m 25s.xml">
       <configuration name="FilmDaoTestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GenreDaoTestCase - 2017.10.18 at 14h 57m 49s.xml">
-      <configuration name="GenreDaoTestCase" configurationId="JUnit" />
+    <history-entry file="FilmDaoTestCase - 2017.10.18 at 16h 27m 24s.xml">
+      <configuration name="FilmDaoTestCase" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GenreDaoTestCase - 2017.10.18 at 14h 59m 16s.xml">
       <configuration name="GenreDaoTestCase" configurationId="JUnit" />
@@ -625,7 +697,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6815000" />
+    <option name="totallyTimeSpent" value="9211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -637,22 +709,22 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08547655" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08472012" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32253087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07716049" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4212963" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17283951" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41358024" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2987897" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33179012" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.018518519" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28549382" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24281392" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -689,21 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/hei/devweb/javacinee/dao/impl/GenreDaoTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="73" column="48" lean-forward="false" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
-          <folding>
-            <marker date="1508331465311" expanded="true" signature="781:797" ph="DELETE FROM " />
-            <marker date="1508331465311" expanded="true" signature="824:841" ph="DELETE FROM " />
-            <marker date="1508331465311" expanded="true" signature="868:925" ph="INSERT INTO `genre`... " />
-            <marker date="1508331465311" expanded="true" signature="952:1010" ph="INSERT INTO `genre`... " />
-            <marker date="1508331465311" expanded="true" signature="1037:1095" ph="INSERT INTO `genre`... " />
-            <marker date="1508331465311" expanded="true" signature="2025:2064" ph="SELECT * FRO... genre" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/DataSourceProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -720,32 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/hei/devweb/javacinee/dao/impl/FilmDaoTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1508334862136" expanded="true" signature="585:601" ph="DELETE FROM " />
-            <marker date="1508334862136" expanded="true" signature="628:645" ph="DELETE FROM " />
-            <marker date="1508334862136" expanded="true" signature="672:729" ph="INSERT INTO `genre`... " />
-            <marker date="1508334862136" expanded="true" signature="756:814" ph="INSERT INTO `genre`... " />
-            <marker date="1508334862136" expanded="true" signature="847:1022" ph="INSERT INTO `film`... " />
-            <marker date="1508334862136" expanded="true" signature="1055:1230" ph="INSERT INTO `film`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/managers/FilmLibrary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/GenreDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -755,19 +786,6 @@
             <marker date="1508333544958" expanded="true" signature="379:412" ph="SELECT * FRO... genre" />
             <marker date="1508333544958" expanded="true" signature="1222:1258" ph="SELECT * FRO... genre" />
             <marker date="1508333544958" expanded="true" signature="2065:2098" ph="INSERT INTO genre... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/FilmDoaImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="66" column="37" lean-forward="false" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1508335033201" expanded="true" signature="736:844" ph="SELECT * FRO... film" />
-            <marker date="1508335033201" expanded="true" signature="1634:1713" ph="SELECT * FRO... film" />
-            <marker date="1508335033201" expanded="true" signature="2558:2650" ph="insert into film... " />
           </folding>
         </state>
       </provider>
@@ -788,10 +806,157 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/mock/impl/FilmDaoMockImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="20" />
+          <folding>
+            <element signature="e#2042#2043#0" expanded="false" />
+            <element signature="e#2060#2061#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hei/devweb/javacinee/dao/impl/GenreDaoTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="73" column="48" lean-forward="false" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+          <folding>
+            <marker date="1508331465311" expanded="true" signature="781:797" ph="DELETE FROM " />
+            <marker date="1508331465311" expanded="true" signature="824:841" ph="DELETE FROM " />
+            <marker date="1508331465311" expanded="true" signature="868:925" ph="INSERT INTO `genre`... " />
+            <marker date="1508331465311" expanded="true" signature="952:1010" ph="INSERT INTO `genre`... " />
+            <marker date="1508331465311" expanded="true" signature="1037:1095" ph="INSERT INTO `genre`... " />
+            <marker date="1508331465311" expanded="true" signature="2025:2064" ph="SELECT * FRO... genre" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hei/devweb/javacinee/dao/impl/FilmDaoTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1508336787005" expanded="true" signature="771:787" ph="DELETE FROM " />
+            <marker date="1508336787005" expanded="true" signature="814:831" ph="DELETE FROM " />
+            <marker date="1508336787005" expanded="true" signature="858:915" ph="INSERT INTO `genre`... " />
+            <marker date="1508336787005" expanded="true" signature="942:1000" ph="INSERT INTO `genre`... " />
+            <marker date="1508336787005" expanded="true" signature="1033:1208" ph="INSERT INTO `film`... " />
+            <marker date="1508336787005" expanded="true" signature="1241:1416" ph="INSERT INTO `film`... " />
+            <marker date="1508336787005" expanded="true" signature="3794:3830" ph="SELECT * FRO... film" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/film.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-638">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/GenericServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/DetailFilmServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/FilmsListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/GenresListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/HomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4f9cd80c-0339-42f1-8919-7a5465c7feec/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="true" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/FilmDoaImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1508336595054" expanded="true" signature="736:844" ph="SELECT * FRO... film" />
+            <marker date="1508336595054" expanded="true" signature="1634:1713" ph="SELECT * FRO... film" />
+            <marker date="1508336595054" expanded="true" signature="2707:2749" ph="select * fro... film" />
+            <marker date="1508336595054" expanded="true" signature="3928:4020" ph="insert into film... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/FilmDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/servlets/AddFilmServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/filters/RandomFilmFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/managers/FilmLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="29" column="56" lean-forward="true" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
           <folding />
         </state>
       </provider>

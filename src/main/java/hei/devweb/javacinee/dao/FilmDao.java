@@ -10,4 +10,6 @@ public interface FilmDao {
 	public Film getFilm(Integer id);
 
 	public Film addFilm(Film film);
+
+	public Film randomFilm();
 }

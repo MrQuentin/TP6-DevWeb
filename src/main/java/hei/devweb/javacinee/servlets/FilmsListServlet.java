@@ -21,6 +21,7 @@ public class FilmsListServlet extends GenericServlet {
         List<Film> listOfFilms = FilmLibrary.getInstance().listFilms();
         context.setVariable("filmsList", listOfFilms);
 
+
         TemplateEngine templateEngine = createTemplateEngine(req.getServletContext());
         templateEngine.process("list", context, resp.getWriter());
     }

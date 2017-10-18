@@ -42,7 +42,41 @@ public class FilmDoaImpl implements FilmDao{
                 try(ResultSet results = statement.executeQuery()){
                     if (results.next()){
                         Genre genre = new Genre(results.getInt("genre_id"),results.getString("name"));
-                        Film film=  new Film(results.getInt("film_id"),results.getString("title"),results.getDate("release_date").toLocalDate(),genre,results.getInt("duration"),results.getString("director"),results.getString("summary"));
+                        Film film=  new Film(
+                                results.getInt("film_id"),
+                                results.getString("title"),
+                                results.getDate("release_date").toLocalDate(),
+                                genre,
+                                results.getInt("duration"),
+                                results.getString("director"),
+                                results.getString("summary"));
+                        return film;
+                    }
+                }
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return  null;
+    }
+
+    @Override
+    public Film randomFilm() {
+        String querry = "select * from film ORDER BY rand() LIMIT 1";
+        try(Connection connection = getDataSource().getConnection()){
+            try(Statement statement = connection.createStatement()){
+                try(ResultSet results = statement.executeQuery(querry)){
+                    if (results.next()){
+                        Genre genre = new Genre(results.getInt("genre_id"),results.getString("name"));
+                        Film film=  new Film(
+                                results.getInt("film_id"),
+                                results.getString("title"),
+                                results.getDate("release_date").toLocalDate(),
+                                genre,
+                                results.getInt("duration"),
+                                results.getString("director"),
+                                results.getString("summary"));
                         return film;
                     }
                 }

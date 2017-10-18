@@ -1,5 +1,7 @@
 package hei.devweb.javacinee.servlets;
 
+import hei.devweb.javacinee.entities.Film;
+import hei.devweb.javacinee.managers.FilmLibrary;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.WebContext;
 
