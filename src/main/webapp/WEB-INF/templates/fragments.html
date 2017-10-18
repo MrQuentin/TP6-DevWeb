@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Fragments</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse navbar-static-top" th:fragment="menu(currentPage)">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="home">JavaCinEE</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+            <ul class="nav navbar-nav">
+                <li th:class="${currentPage == 'home'} ? 'active' : ''"><a href="home">Home</a></li>
+                <li th:class="${currentPage == 'list'} ? 'active' : ''"><a href="list">Films list</a></li>
+                <li th:class="${currentPage == 'newfilm'} ? 'active' : ''"><a href="newfilm">Add a new film</a></li>
+                <li th:class="${currentPage == 'genres'} ? 'active' : ''"><a href="genres">Genres list</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div th:fragment="randomfilm">
+        <h4>A random film:</h4>
+        <div class="well">
+            <h4>[[${randomfilm.title}]] <small th:text="${randomfilm.director}">(Denis Villeneuve)</small></h4>
+            <p>Released on [[${#temporals.format(randomfilm.releaseDate, 'd MMMM yyyy')}]]</p>
+            <p>
+                <span class="glyphicon glyphicon-search"></span>
+                <a th:href="${'film?id='+randomfilm.id}"
+                   th:title="${'Details for '+randomfilm.title}">See this film details</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
