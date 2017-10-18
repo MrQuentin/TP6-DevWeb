@@ -7,10 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de424930-0cba-4dfc-a7ab-a6257509aa71" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hei/devweb/javacinee/dao/impl/GenreDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/hei/devweb/javacinee/dao/impl/GenreDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/java-cinee-db-1.0-SNAPSHOT/WEB-INF/classes/hei/devweb/javacinee/dao/impl/GenreDaoImpl.class" afterPath="$PROJECT_DIR$/target/java-cinee-db-1.0-SNAPSHOT/WEB-INF/classes/hei/devweb/javacinee/dao/impl/GenreDaoImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/DataSourceProvider.java" afterPath="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/DataSourceProvider.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/GenreDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/GenreDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/hei/devweb/javacinee/dao/impl/GenreDaoTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/hei/devweb/javacinee/dao/impl/GenreDaoTestCase.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +37,18 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4f9cd80c-0339-42f1-8919-7a5465c7feec/console.sql">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="creationTables.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/sql/creationTables.sql">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,15 +74,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenreDaoImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="populateTables.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/sql/populateTables.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <marker date="1478090388594" expanded="true" signature="0:16" ph="DELETE FROM " />
+                <marker date="1478090388594" expanded="true" signature="18:35" ph="DELETE FROM " />
+                <marker date="1478090388594" expanded="true" signature="38:95" ph="INSERT INTO `genre`... " />
+                <marker date="1478090388594" expanded="true" signature="97:158" ph="INSERT INTO `genre`... " />
+                <marker date="1478090388594" expanded="true" signature="160:218" ph="INSERT INTO `genre`... " />
+                <marker date="1478090388594" expanded="true" signature="221:621" ph="INSERT INTO `film`... " />
+                <marker date="1478090388594" expanded="true" signature="623:894" ph="INSERT INTO `film`... " />
+                <marker date="1478090388594" expanded="true" signature="896:1305" ph="INSERT INTO `film`... " />
+                <marker date="1478090388594" expanded="true" signature="1307:1577" ph="INSERT INTO `film`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenreDaoImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/GenreDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="57" column="12" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+            <state relative-caret-position="450">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1508332566747" expanded="true" signature="379:412" ph="SELECT * FRO... genre" />
-                <marker date="1508332566747" expanded="true" signature="1222:1258" ph="SELECT * FRO... genre" />
+                <marker date="1508333544958" expanded="true" signature="379:412" ph="SELECT * FRO... genre" />
+                <marker date="1508333544958" expanded="true" signature="1222:1258" ph="SELECT * FRO... genre" />
+                <marker date="1508333544958" expanded="true" signature="2065:2098" ph="INSERT INTO genre... " />
               </folding>
             </state>
           </provider>
@@ -81,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/hei/devweb/javacinee/dao/impl/GenreDaoTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="920">
-              <caret line="73" column="48" lean-forward="true" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+              <caret line="73" column="48" lean-forward="false" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
               <folding>
                 <marker date="1508331465311" expanded="true" signature="781:797" ph="DELETE FROM " />
                 <marker date="1508331465311" expanded="true" signature="824:841" ph="DELETE FROM " />
@@ -126,8 +158,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/hei/devweb/javacinee/dao/impl/GenreDaoTestCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/DataSourceProvider.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4f9cd80c-0339-42f1-8919-7a5465c7feec/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/GenreDaoImpl.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4f9cd80c-0339-42f1-8919-7a5465c7feec/console.sql" />
       </list>
     </option>
   </component>
@@ -144,10 +176,17 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="775" />
+    <option name="x" value="133" />
+    <option name="y" value="3" />
+    <option name="width" value="1240" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -218,6 +257,13 @@
               <item name="javacinee" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-cinee-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-cinee-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-cinee-db" type="b2602c69:ProjectViewProjectNode" />
@@ -469,7 +515,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508328527459</updated>
-      <workItem from="1508328528809" duration="4178000" />
+      <workItem from="1508328528809" duration="5269000" />
     </task>
     <task id="LOCAL-00001" summary="ajout GenreDaoImpl">
       <created>1508329537892</created>
@@ -520,9 +566,15 @@
     <history-entry file="GenreDaoTestCase - 2017.10.18 at 15h 12m 09s.xml">
       <configuration name="GenreDaoTestCase" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GenreDaoTestCase - 2017.10.18 at 15h 32m 30s.xml">
+      <configuration name="GenreDaoTestCase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenreDaoTestCase - 2017.10.18 at 15h 32m 46s.xml">
+      <configuration name="GenreDaoTestCase" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4178000" />
+    <option name="totallyTimeSpent" value="5269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -531,7 +583,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08547655" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -546,10 +598,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1404321" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35185185" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41358024" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.008320726" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.720679" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19598766" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41358024" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31316188" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -611,14 +663,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/FilmDoaImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-471">
@@ -630,7 +674,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/hei/devweb/javacinee/dao/impl/GenreDaoTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="920">
-          <caret line="73" column="48" lean-forward="true" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+          <caret line="73" column="48" lean-forward="false" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
           <folding>
             <marker date="1508331465311" expanded="true" signature="781:797" ph="DELETE FROM " />
             <marker date="1508331465311" expanded="true" signature="824:841" ph="DELETE FROM " />
@@ -650,22 +694,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4f9cd80c-0339-42f1-8919-7a5465c7feec/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/GenreDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        <state relative-caret-position="450">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1508333544958" expanded="true" signature="379:412" ph="SELECT * FRO... genre" />
+            <marker date="1508333544958" expanded="true" signature="1222:1258" ph="SELECT * FRO... genre" />
+            <marker date="1508333544958" expanded="true" signature="2065:2098" ph="INSERT INTO genre... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/FilmDoaImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/javacinee/dao/impl/GenreDaoImpl.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4f9cd80c-0339-42f1-8919-7a5465c7feec/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="57" column="12" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/sql/creationTables.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/sql/populateTables.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1508332566747" expanded="true" signature="379:412" ph="SELECT * FRO... genre" />
-            <marker date="1508332566747" expanded="true" signature="1222:1258" ph="SELECT * FRO... genre" />
+            <marker date="1478090388594" expanded="true" signature="0:16" ph="DELETE FROM " />
+            <marker date="1478090388594" expanded="true" signature="18:35" ph="DELETE FROM " />
+            <marker date="1478090388594" expanded="true" signature="38:95" ph="INSERT INTO `genre`... " />
+            <marker date="1478090388594" expanded="true" signature="97:158" ph="INSERT INTO `genre`... " />
+            <marker date="1478090388594" expanded="true" signature="160:218" ph="INSERT INTO `genre`... " />
+            <marker date="1478090388594" expanded="true" signature="221:621" ph="INSERT INTO `film`... " />
+            <marker date="1478090388594" expanded="true" signature="623:894" ph="INSERT INTO `film`... " />
+            <marker date="1478090388594" expanded="true" signature="896:1305" ph="INSERT INTO `film`... " />
+            <marker date="1478090388594" expanded="true" signature="1307:1577" ph="INSERT INTO `film`... " />
           </folding>
         </state>
       </provider>

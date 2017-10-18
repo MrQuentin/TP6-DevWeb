@@ -53,12 +53,13 @@ public class GenreDaoImpl implements GenreDao {
 
     @Override
     public void addGenre(String nom) {
-
-        try (Connection connection = DataSourceProvider.getDataSource().getConnection()){
-
-        } catch (SQLException e) {
+        try (Connection connection = DataSourceProvider.getDataSource().getConnection()) {
+            try(PreparedStatement statement = connection.prepareStatement("INSERT INTO genre(name) VALUES(?)", Statement.RETURN_GENERATED_KEYS)) {
+                statement.setString(1, nom);
+                statement.executeUpdate();
+            }
+        }catch (SQLException e) {
             e.printStackTrace();
         }
-
     }
 }
