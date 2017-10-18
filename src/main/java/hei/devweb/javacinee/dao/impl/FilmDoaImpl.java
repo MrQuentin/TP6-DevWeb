@@ -57,15 +57,14 @@ public class FilmDoaImpl implements FilmDao{
     @Override
     public Film addFilm(Film film) {
         try (Connection connection = getDataSource().getConnection()) {
-            String sqlQuery="insert into film(film_id,title,release_date,genre_id,duration,director,summary) VALUES (?,?,?,?,?,?,?)";
+            String sqlQuery="insert into film(title,release_date,genre_id,duration,director,summary) VALUES (?,?,?,?,?,?)";
             try(PreparedStatement statement = connection.prepareStatement(sqlQuery,Statement.RETURN_GENERATED_KEYS)){
-                statement.setInt(1,film.getId());
-                statement.setString(2,film.getTitle());
-                statement.setDate(3,Date.valueOf(film.getReleaseDate()));
-                statement.setInt(4,film.getGenre().getId());
-                statement.setInt(5,film.getDuration());
-                statement.setString(6,film.getDirector());
-                statement.setString(7,film.getSummary());
+                statement.setString(1,film.getTitle());
+                statement.setDate(2,Date.valueOf(film.getReleaseDate()));
+                statement.setInt(3,film.getGenre().getId());
+                statement.setInt(4,film.getDuration());
+                statement.setString(5,film.getDirector());
+                statement.setString(6,film.getSummary());
                 statement.executeUpdate();
 
                 ResultSet rez = statement.getGeneratedKeys();

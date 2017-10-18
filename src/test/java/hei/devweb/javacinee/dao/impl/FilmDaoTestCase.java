@@ -1,18 +1,17 @@
 package hei.devweb.javacinee.dao.impl;
 
-import java.sql.Connection;
-import java.sql.Statement;
-
+import hei.devweb.javacinee.dao.FilmDao;
+import hei.devweb.javacinee.dao.mock.impl.FilmDaoMockImpl;
 import org.junit.Before;
 import org.junit.Test;
 
-import hei.devweb.javacinee.dao.FilmDao;
-import hei.devweb.javacinee.dao.mock.impl.FilmDaoMockImpl;
+import java.sql.Connection;
+import java.sql.Statement;
 
 import static org.assertj.core.api.Assertions.fail;
 
 public class FilmDaoTestCase {
-	private FilmDao filmDao = new FilmDaoMockImpl();
+	private FilmDao filmDao = new FilmDoaImpl();
 
 	@Before
 	public void initDb() throws Exception {

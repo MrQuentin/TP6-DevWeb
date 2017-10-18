@@ -4,8 +4,9 @@ import java.util.List;
 
 import hei.devweb.javacinee.dao.FilmDao;
 import hei.devweb.javacinee.dao.GenreDao;
-import hei.devweb.javacinee.dao.mock.impl.FilmDaoMockImpl;
-import hei.devweb.javacinee.dao.mock.impl.GenreDaoMockImpl;
+import hei.devweb.javacinee.dao.impl.FilmDoaImpl;
+import hei.devweb.javacinee.dao.impl.GenreDaoImpl;
+
 import hei.devweb.javacinee.entities.Film;
 import hei.devweb.javacinee.entities.Genre;
 
@@ -19,8 +20,8 @@ public class FilmLibrary {
 		return FilmLibraryHolder.instance;
 	}
 	
-	private FilmDao filmDao = new FilmDaoMockImpl();
-	private GenreDao genreDao = new GenreDaoMockImpl();	
+	private FilmDao filmDao = new FilmDoaImpl();
+	private GenreDao genreDao = new GenreDaoImpl();
 
 	private FilmLibrary() {
 	}
