@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>JavaCinEE</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+	<!-- Navigation menu -->
+	<nav th:replace="~{fragments::menu('list')}"></nav>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h3>Detail of the film</h3>
+
+				<div class="row">
+					<label class="col-sm-2 control-label">Title</label>
+					<div class="col-sm-10">
+						<p th:text="${film.title}">Blade Runner 2049</p>
+					</div>
+				</div>
+				<div class="row">
+					<label class="col-sm-2 control-label">Release date</label>
+					<div class="col-sm-3">
+						<p th:text="${#temporals.format(film.releaseDate, 'd MMMM yyyy')}">4 october 2017</p>
+					</div>
+				</div>
+				<div class="row">
+					<label class="col-sm-2 control-label">Genre</label>
+					<div class="col-sm-10">
+						<p th:text="${film.genre.name}">Science fiction</p>
+					</div>
+				</div>
+				<div class="row">
+					<label class="col-sm-2 control-label">Duration</label>
+					<div class="col-sm-3">
+						<div class="input-group">
+						  <p>[[${film.duration}]] min</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<label class="col-sm-2 control-label">Director</label>
+					<div class="col-sm-10">
+						<p th:text="${film.director}">Denis Villeneuve</p>
+					</div>
+				</div>
+				<div class="row">
+					<label class="col-sm-2 control-label">Summary</label>
+					<div class="col-sm-10">
+						<p th:text="${film.summary}">A young blade runner's discovery of a long-buried secret leads him to track down former blade runner Rick Deckard, who's been missing for thirty years.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-offset-2 col-sm-10">
+						<a class="btn btn-default" href="list">Back to the list</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4" th:insert="~{fragments::randomfilm}"></div>
+		</div>
+	</div>
+  </body>
+</html>

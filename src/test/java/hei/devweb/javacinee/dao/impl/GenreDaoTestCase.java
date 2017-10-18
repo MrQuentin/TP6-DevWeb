@@ -18,7 +18,7 @@ import hei.devweb.javacinee.entities.Genre;
 
 public class GenreDaoTestCase {
 
-	private GenreDao genreDao = new GenreDaoMockImpl();
+	private GenreDao genreDao = new GenreDaoImpl();
 
 	@Before
 	public void initDb() throws Exception {

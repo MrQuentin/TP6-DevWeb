@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>JavaCinEE</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+	<!-- Navigation menu -->
+	<nav th:replace="~{fragments::menu('list')}"></nav>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h3>Films</h3>
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Title</th>
+							<th>Genre</th>
+							<th>Release date</th>
+							<th>Director</th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="film : ${filmsList}">
+							<td th:text="${film.id}">1</td>
+							<td th:text="${film.title}">Blade Runner 2049</td>
+							<td th:text="${film.genre.name}">Science fiction</td>
+							<td th:text="${#temporals.format(film.releaseDate, 'd MMMM yyyy')}">4 october 2017</td>
+							<td th:text="${film.director}">Denis Villeneuve</td>
+							<td><a th:href="${'film?id='+film.id}"
+								   th:title="${'Details for '+film.title}"><span class="glyphicon glyphicon-search"></span></a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-md-4" th:insert="~{fragments::randomfilm}"></div>
+    	</div>
+	</div>
+  </body>
+</html>
