@@ -1,4 +1,9 @@
 package hei.devweb.javacinee.dao.impl;
 
-public class GenreDaoImpl {
+import hei.devweb.javacinee.dao.GenreDao;
+
+public class GenreDaoImpl implements GenreDao {
+
+
+
 }
