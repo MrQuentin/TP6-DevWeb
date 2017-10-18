@@ -63,7 +63,7 @@ public class FilmDoaImpl implements FilmDao{
 
     @Override
     public Film randomFilm() {
-        String querry = "select * from film ORDER BY rand() LIMIT 1";
+        String querry = "select * from film JOIN genre ON film.genre_id = genre.genre_id ORDER BY rand() LIMIT 1";
         try(Connection connection = getDataSource().getConnection()){
             try(Statement statement = connection.createStatement()){
                 try(ResultSet results = statement.executeQuery(querry)){

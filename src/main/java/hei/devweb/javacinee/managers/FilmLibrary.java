@@ -35,7 +35,7 @@ public class FilmLibrary {
 	}
 
 	public Film getRandomFilm() {
-		return filmDao.getFilm(1);
+		return filmDao.randomFilm();
 	}
 
 	public Film addFilm(Film film) {
